@@ -1,0 +1,306 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0;
+  margin: 0;
+  color: 000;
+  font-size: 16px;
+}
+h1,h2,h4,h5,h6{
+
+  text-transform: uppercase;
+
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 58px;
+  font-family : Arial, Gadget, sans-serif;
+}
+.head{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  z-index: 10;
+  background: rgba(44,51,51,0.7);
+
+
+}
+.logo{
+  position: relative;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 110px;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding-left: 400px;
+}
+.navigation li{
+  list-style: none;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.navigation li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.navigation li a:hover{
+  color: yellow;
+}
+.search{
+  position: relative;
+  width: 300px;
+  height: 40px;
+}
+.search input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0 10px 0 45px;
+}
+.search input::placeholder{
+  color: white;
+}
+.search .fa-solid{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+.heaader {
+  background: url('./img/Elon.jpg');
+  padding-right: 5%;
+  padding-bottom:  500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.title{
+  background-color: #E5E3C9;
+  padding-bottom: 30px;
+}
+
+.feature{
+  background-color: #E5E3C9;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
+.personal{
+  background-color: #E5E3C9;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.book-store{
+  background-color: #E5E3C9;
+  padding-bottom: 30px;
+}
+.offer{
+  padding-left: 55px;
+  color: #D8D2CB;
+
+}
+.offer p{
+  font-size: 20px;
+  padding-right: 50%;
+  line-height: 1.3em;
+}
+.description{
+  display: flex;
+  justify-content: space-between;
+}
+.description p{
+  font-weight: 500;
+  line-height: 1.62em;
+  font-family : Arial, Gadget, sans-serif;
+}
+.desc_left, .desc_right{
+width: 620px;
+}
+.description1{
+  display: flex;
+  justify-content: space-between;
+}
+.description1 p{
+  font-weight: 500;
+  line-height: 1.62em;
+  font-family : Arial, Gadget, sans-serif;
+}
+.desc_left1, .desc_right1{
+width: 620px;
+}
+.word{
+  font-weight: 800;
+}
+.gallery{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery img{
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.lifee{
+  margin-top: 60px;
+  text-align: justify;
+  line-height: 1.62em;
+  font-family : Arial, Gadget, sans-serif;
+}
+.lifee h3{
+  font-weight: 550;
+}
+.life2{
+  margin-top: 60px;
+  text-align: justify;
+  line-height: 1.62em;
+  font-family : Arial, Gadget, sans-serif;
+}
+.life2 h3{
+  font-weight: 550;
+}
+.Don{
+  font-weight: 500;
+}
+.footer-text{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer-text p{
+  margin-right: 70px;
+}
+
+.taby img{
+  float: right;
+  clear: right;
+  margin-left: 25px;
+
+  color: white;
+  height: 510px;
+}
+.asdf{
+  width: 420px;
+}
+.table table{
+  margin: 40px;
+}
+table{
+  border-collapse: collapse;
+  width: 90%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.book img{
+  height: 370px;
+}
+.foot{
+  display: flex;
+  background-color: #24262b;
+}
+.foot_text{
+padding-left: 180px;
+color: white;
+}
+.foot_text1{
+padding-left: 20px;
+color: white;
+}
+.navbar .logo{
+  width: 190px;
+  color: red;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #C0A080;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.taable{
+  background-color: #E5E3C9;
+  padding-bottom: 30px;
+}
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+.tabcontent p{
+  font-weight: 500;
+  line-height: 1.62em;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.taable h3{
+  font-weight: 630;
+  font-family : Arial, Gadget, sans-serif;
+}
+.button {
+    margin-top: 40px;
+    padding-left: 53px;
+    padding-top: 75px;
+}
+
+.button a {
+
+    background-color: #FFBD35;
+    padding: 20px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
